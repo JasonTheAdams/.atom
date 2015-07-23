@@ -1,0 +1,11 @@
+'atom-text-editor:not([mini])':
+  'ctrl-shift-K': 'window:focus-pane-above'
+
+'.platform-linux atom-text-editor':
+  'ctrl-shift-L': 'window:focus-pane-on-right'
+
+'atom-text-editor':
+  'ctrl-shift-K': 'window:focus-pane-above'
+  'ctrl-shift-J': 'window:focus-pane-below'
+  'ctrl-shift-H': 'window:focus-pane-on-left'
+  'ctrl-shift-L': 'window:focus-pane-on-right'
