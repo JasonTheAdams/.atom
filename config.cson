@@ -1,5 +1,8 @@
 "*":
-  "exception-reporting":
-    userId: "d0a60f5d-415d-8830-b69b-fe11038a8732"
+    userId: "e79989d3-2a61-e199-d166-1be48d945544"
   welcome:
     showOnStartup: false
+  editor:
+    invisibles: {}
+  core: {}
+  "vim-surround": {}
