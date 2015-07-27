@@ -9,3 +9,9 @@
   'ctrl-shift-J': 'window:focus-pane-below'
   'ctrl-shift-H': 'window:focus-pane-on-left'
   'ctrl-shift-L': 'window:focus-pane-on-right'
+
+'atom-text-editor.vim-mode:not(.insert-mode)':
+  'ctrl-f': 'find-and-replace:show'
+
+'atom-text-editor.vim-mode:not(.insert-mode)':
+  ';': 'ex-mode:open'
