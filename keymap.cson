@@ -4,6 +4,9 @@
 '.platform-linux atom-text-editor':
   'ctrl-shift-L': 'window:focus-pane-on-right'
 
+'.platform-win32 atom-text-editor':
+  'ctrl-shift-L': 'window:focus-pane-on-right'
+
 'atom-text-editor':
   'ctrl-shift-K': 'window:focus-pane-above'
   'ctrl-shift-J': 'window:focus-pane-below'
