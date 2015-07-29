@@ -1,8 +1,12 @@
 "*":
-    userId: "e79989d3-2a61-e199-d166-1be48d945544"
+  userId: "e79989d3-2a61-e199-d166-1be48d945544"
+  "exception-reporting":
+    userId: "18f8b945-8084-83b0-d8fb-0214984aac5e"
   welcome:
     showOnStartup: false
+  "vim-mode": {}
+  core: {}
   editor:
     invisibles: {}
-  core: {}
-  "vim-surround": {}
+welcome:
+  showOnStartup: false

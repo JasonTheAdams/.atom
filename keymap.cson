@@ -15,6 +15,7 @@
 
 'atom-text-editor.vim-mode:not(.insert-mode)':
   'ctrl-f': 'find-and-replace:show'
-
-'atom-text-editor.vim-mode:not(.insert-mode)':
   ';': 'ex-mode:open'
+
+'body .native-key-bindings':
+  'ctrl-f': 'find-and-replace:show'
