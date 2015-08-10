@@ -1,13 +1,13 @@
-'atom-text-editor:not([mini])':
+'atom-text-editor:not([mini]).vim-mode':
   'ctrl-shift-K': 'window:focus-pane-above'
 
-'.platform-linux atom-text-editor':
+'.platform-linux atom-text-editor.vim-mode':
   'ctrl-shift-L': 'window:focus-pane-on-right'
 
-'.platform-win32 atom-text-editor':
+'.platform-win32 atom-text-editor.vim-mode':
   'ctrl-shift-L': 'window:focus-pane-on-right'
 
-'atom-text-editor':
+'atom-text-editor.vim-mode':
   'ctrl-shift-K': 'window:focus-pane-above'
   'ctrl-shift-J': 'window:focus-pane-below'
   'ctrl-shift-H': 'window:focus-pane-on-left'
@@ -19,3 +19,9 @@
 
 'body .native-key-bindings':
   'ctrl-f': 'find-and-replace:show'
+
+'atom-workspace atom-text-editor:not([mini]).vim-mode':
+  'alt-shift-k': 'editor:add-selection-above'
+
+'atom-workspace atom-text-editor:not([mini]).vim-mode':
+  'alt-shift-j': 'editor:add-selection-below'
